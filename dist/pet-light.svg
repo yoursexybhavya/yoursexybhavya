@@ -30,22 +30,22 @@
 <rect x="18" y="152" width="18" height="6" fill="#1f2328"/>
 <rect x="48" y="152" width="24" height="6" fill="#1f2328"/>
 <rect x="84" y="152" width="18" height="6" fill="#1f2328"/>
-<rect x="12" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="18" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="24" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="30" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="36" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="42" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="48" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="54" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="60" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="66" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="72" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="78" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="84" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="90" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="96" y="122" width="6" height="6" fill="#fe428e"/>
-<rect x="102" y="122" width="6" height="6" fill="#fe428e"/>
+<rect x="12" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="18" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="24" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="30" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="36" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="42" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="48" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="54" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="60" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="66" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="72" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="78" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="84" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="90" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="96" y="122" width="6" height="6" fill="#f4641b"/>
+<rect x="102" y="122" width="6" height="6" fill="#f4641b"/>
 <rect x="54" y="128" width="6" height="6" fill="#1a7f37"/>
 <rect x="60" y="128" width="6" height="6" fill="#1a7f37"/>
 <g><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="1.4s" repeatCount="indefinite"/><rect x="102" y="152" width="6" height="6" fill="#1f2328"/><rect x="108" y="152" width="6" height="6" fill="#1f2328"/><rect x="114" y="152" width="6" height="6" fill="#1f2328"/><rect x="114" y="146" width="6" height="6" fill="#1f2328"/></g>
@@ -76,7 +76,7 @@
 <rect x="6" y="104" width="6" height="6" fill="#1f2328"/>
 <rect x="108" y="98" width="6" height="6" fill="#1f2328"/>
 <rect x="108" y="104" width="6" height="6" fill="#1f2328"/>
-<g><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.96;1" calcMode="discrete" dur="4.2s" repeatCount="indefinite"/><rect x="30" y="92" width="6" height="6" fill="#fe428e"/><rect x="84" y="92" width="6" height="6" fill="#fe428e"/></g>
+<g><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.96;1" calcMode="discrete" dur="4.2s" repeatCount="indefinite"/><rect x="30" y="92" width="6" height="6" fill="#f4641b"/><rect x="84" y="92" width="6" height="6" fill="#f4641b"/></g>
 <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.96;1" calcMode="discrete" dur="4.2s" repeatCount="indefinite"/><rect x="30" y="92" width="6" height="6" fill="#ffffff"/><rect x="84" y="92" width="6" height="6" fill="#ffffff"/></g>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.12;0.13;0.82;0.83;1" calcMode="discrete" dur="14s" begin="7s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;0;1" calcMode="discrete" dur="0.5s" repeatCount="indefinite"/><rect x="108" y="86" width="6" height="6" fill="#1f2328"/><rect x="114" y="80" width="6" height="6" fill="#1f2328"/><rect x="114" y="86" width="6" height="6" fill="#1f2328"/></g></g>
@@ -89,11 +89,11 @@
 <polygon points="110,58 130,58 118,74" fill="#d0d7de"/>
 <text x="76" y="31" font-family="monospace" font-size="13" fill="#1f2328">good afternoon! welcome to Bhavya's corner</text>
 <text x="76" y="48" font-family="monospace" font-size="12" fill="#57606a">scroll down for projects + contact</text>
-<polygon points="230,66 246,66 238,78" fill="#fe428e"><animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="0.8s" repeatCount="indefinite"/></polygon>
+<polygon points="230,66 246,66 238,78" fill="#f4641b"><animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="0.8s" repeatCount="indefinite"/></polygon>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.000;0.040;0.183;0.223;1" dur="18s" begin="5s" repeatCount="indefinite"/><rect x="666" y="14" width="212" height="30" rx="9" fill="#d0d7de"/><polygon points="692,44 710,44 699,54" fill="#d0d7de"/><text x="677" y="33" font-family="monospace" font-size="12" fill="#1f2328">hacking on yoursexybhavya</text></g>
 <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.250;0.290;0.433;0.473;1" dur="18s" begin="5s" repeatCount="indefinite"/><rect x="711.6" y="14" width="166.4" height="30" rx="9" fill="#d0d7de"/><polygon points="737.6,44 755.6,44 744.6,54" fill="#d0d7de"/><text x="722.6" y="33" font-family="monospace" font-size="12" fill="#1f2328">featured projects ↓</text></g>
 <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.500;0.540;0.683;0.723;1" dur="18s" begin="5s" repeatCount="indefinite"/><rect x="696.4" y="14" width="181.6" height="30" rx="9" fill="#d0d7de"/><polygon points="722.4,44 740.4,44 729.4,54" fill="#d0d7de"/><text x="707.4" y="33" font-family="monospace" font-size="12" fill="#1f2328">live stats + graphs ↓</text></g>
 <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.750;0.790;0.933;0.973;1" dur="18s" begin="5s" repeatCount="indefinite"/><rect x="605.2" y="14" width="272.79999999999995" height="30" rx="9" fill="#d0d7de"/><polygon points="631.2,44 649.2,44 638.2,54" fill="#d0d7de"/><text x="616.2" y="33" font-family="monospace" font-size="12" fill="#1f2328">say hi: github.com/yoursexybhavya</text></g>
-<text x="16" y="180" font-family="monospace" font-size="12" fill="#57606a">state: zoomies - Pixel has the zoomies!! 3 pushes in the last 24h · 6-day streak · 31 pushes · 0 prs this week · 45 contributions this year · regenerated every 6h · github-pet by prsdx</text>
+<text x="16" y="180" font-family="monospace" font-size="12" fill="#57606a">state: zoomies - Blaze has the zoomies!! 6 pushes in the last 24h · 6-day streak · 34 pushes · 0 prs this week · 49 contributions this year · regenerated every 6h · github-pet by prsdx</text>
 </svg>
