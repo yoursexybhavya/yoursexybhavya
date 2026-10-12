@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 410" width="100%" height="100%">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f0c1b" />
-      <stop offset="50%" stop-color="#141321" />
-      <stop offset="100%" stop-color="#191124" />
+      <stop offset="0%" stop-color="#100406" />
+      <stop offset="50%" stop-color="#18090c" />
+      <stop offset="100%" stop-color="#240d10" />
     </linearGradient>
     <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1c192b" />
-      <stop offset="50%" stop-color="#161426" />
-      <stop offset="100%" stop-color="#1c192b" />
+      <stop offset="0%" stop-color="#260e12" />
+      <stop offset="50%" stop-color="#1d0a0d" />
+      <stop offset="100%" stop-color="#260e12" />
     </linearGradient>
     <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fe428e" stop-opacity="0.85" />
-      <stop offset="50%" stop-color="#a9fef7" stop-opacity="0.55" />
-      <stop offset="100%" stop-color="#fe428e" stop-opacity="0.85" />
+      <stop offset="0%" stop-color="#f4641b" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#f9a41a" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#d24c29" stop-opacity="0.9" />
     </linearGradient>
   </defs>
 
@@ -26,21 +26,21 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-size: 12.5px;
       font-weight: 600;
-      fill: #9ca3af;
+      fill: #d6b8ae;
     }
     .badge-font {
       font-family: 'Fira Code', 'JetBrains Mono', monospace;
       font-size: 11px;
       font-weight: 600;
     }
-    .prompt { fill: #fe428e; font-weight: 700; }
-    .path { fill: #a9fef7; font-weight: 700; }
-    .cmd { fill: #f8fafc; font-weight: 600; }
-    .key { fill: #a9fef7; }
-    .val { fill: #f8d47c; }
-    .str { fill: #c4b5fd; }
-    .muted { fill: #94a3b8; }
-    .accent { fill: #fe428e; font-weight: 600; }
+    .prompt { fill: #f4641b; font-weight: 700; }
+    .path { fill: #f9a41a; font-weight: 700; }
+    .cmd { fill: #fff7ed; font-weight: 600; }
+    .key { fill: #f9a41a; }
+    .val { fill: #fde68a; }
+    .str { fill: #fdba74; }
+    .muted { fill: #b89488; }
+    .accent { fill: #f4641b; font-weight: 600; }
 
     .line-1 { opacity: 0; animation: fadeIn 0.35s ease forwards 0.2s; }
     .line-2 { opacity: 0; animation: fadeIn 0.35s ease forwards 0.6s; }
@@ -55,7 +55,7 @@
 
     .cursor {
       animation: blink 1.05s step-end infinite;
-      fill: #fe428e;
+      fill: #f4641b;
     }
     .pulse-dot {
       animation: pulse 2s ease-in-out infinite;
@@ -80,7 +80,7 @@
 
   <!-- Top Title Bar -->
   <path d="M 5 18 Q 5 5 18 5 L 862 5 Q 875 5 875 18 L 875 44 L 5 44 Z" fill="url(#headerGrad)" />
-  <line x1="5" y1="44" x2="875" y2="44" stroke="#2d2640" stroke-width="1.2" />
+  <line x1="5" y1="44" x2="875" y2="44" stroke="#39110e" stroke-width="1.2" />
 
   <!-- Traffic Lights -->
   <circle cx="26" cy="24.5" r="6.2" fill="#ff5f56" />
@@ -88,15 +88,15 @@
   <circle cx="66" cy="24.5" r="6.2" fill="#27c93f" />
 
   <!-- Window Title -->
-  <text x="440" y="29" text-anchor="middle" class="title-font">yoursexybhavya@synthwave : ~ (-zsh)</text>
+  <text x="440" y="29" text-anchor="middle" class="title-font">yoursexybhavya@solarember : ~ (-zsh)</text>
 
   <!-- Live Status Pill in Title Bar -->
-  <rect x="752" y="13.5" width="106" height="22" rx="11" fill="#141321" stroke="#fe428e" stroke-width="1" stroke-opacity="0.7" />
-  <circle cx="766" cy="24.5" r="4" fill="#fe428e" class="pulse-dot" />
-  <text x="777" y="28.5" class="badge-font" fill="#fe428e">ONLINE • IST</text>
+  <rect x="752" y="13.5" width="106" height="22" rx="11" fill="#14080a" stroke="#f4641b" stroke-width="1" stroke-opacity="0.75" />
+  <circle cx="766" cy="24.5" r="4" fill="#f9a41a" class="pulse-dot" />
+  <text x="777" y="28.5" class="badge-font" fill="#f9a41a">ONLINE • IST</text>
 
   <!-- Subtle Grid Lines -->
-  <g stroke="#fe428e" stroke-opacity="0.035" stroke-width="1">
+  <g stroke="#f4641b" stroke-opacity="0.04" stroke-width="1">
     <line x1="4" y1="95" x2="876" y2="95" />
     <line x1="4" y1="155" x2="876" y2="155" />
     <line x1="4" y1="215" x2="876" y2="215" />
@@ -109,7 +109,7 @@
     <!-- Command 1: whoami -->
     <g class="line-1">
       <text x="26" y="76">
-        <tspan class="prompt">bhavya@synthwave</tspan><tspan class="muted">:</tspan><tspan class="path">~</tspan><tspan class="muted">$ </tspan><tspan class="cmd">whoami --verbose</tspan>
+        <tspan class="prompt">bhavya@solarember</tspan><tspan class="muted">:</tspan><tspan class="path">~</tspan><tspan class="muted">$ </tspan><tspan class="cmd">whoami --verbose</tspan>
       </text>
     </g>
 
@@ -125,7 +125,7 @@
     <!-- Command 2: cat academic_and_focus.yml -->
     <g class="line-3">
       <text x="26" y="154">
-        <tspan class="prompt">bhavya@synthwave</tspan><tspan class="muted">:</tspan><tspan class="path">~/specs</tspan><tspan class="muted">$ </tspan><tspan class="cmd">cat academic_and_focus.yml</tspan>
+        <tspan class="prompt">bhavya@solarember</tspan><tspan class="muted">:</tspan><tspan class="path">~/specs</tspan><tspan class="muted">$ </tspan><tspan class="cmd">cat academic_and_focus.yml</tspan>
       </text>
     </g>
 
@@ -156,7 +156,7 @@
     <!-- Command 3: active builds -->
     <g class="line-8">
       <text x="26" y="278">
-        <tspan class="prompt">bhavya@synthwave</tspan><tspan class="muted">:</tspan><tspan class="path">~/repositories</tspan><tspan class="muted">$ </tspan><tspan class="cmd">ls -la --featured</tspan>
+        <tspan class="prompt">bhavya@solarember</tspan><tspan class="muted">:</tspan><tspan class="path">~/repositories</tspan><tspan class="muted">$ </tspan><tspan class="cmd">ls -la --featured</tspan>
       </text>
     </g>
 
@@ -175,7 +175,7 @@
     <!-- Command 4: active prompt with blinking cursor -->
     <g class="line-10">
       <text x="26" y="380">
-        <tspan class="prompt">bhavya@synthwave</tspan><tspan class="muted">:</tspan><tspan class="path">~</tspan><tspan class="muted">$ </tspan><tspan class="cmd">./ship_next_build.sh --mode=synthwave </tspan><tspan class="cursor">█</tspan>
+        <tspan class="prompt">bhavya@solarember</tspan><tspan class="muted">:</tspan><tspan class="path">~</tspan><tspan class="muted">$ </tspan><tspan class="cmd">./ship_next_build.sh --mode=solarember </tspan><tspan class="cursor">█</tspan>
       </text>
     </g>
   </g>
