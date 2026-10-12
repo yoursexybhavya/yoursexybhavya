@@ -1,28 +1,55 @@
-name: Generate Snake
+name: Synthwave Profile Generative Suite
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
+    paths-ignore:
+      - "dist/**"
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions:
-      contents: write
+    name: Generate Pixel Cat Companion & Contribution Snake
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
+
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate YourTomo Living Pixel Cat (prsdx/github-pet)
+        uses: prsdx/github-pet@v1.3.0
+        continue-on-error: true
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          timezone-offset-minutes: "330"
+          display-name: "Bhavya"
+          pet-name: "Pixel"
+          accent-color: "#fe428e"
+          contact-line: "github.com/yoursexybhavya"
+          output-dir: "dist"
+
+      - name: Generate Contribution Snake (Platane/snk)
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+            dist_snake/github-contribution-grid-snake.svg
+            dist_snake/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#fe428e&color_dots=#161b22,#3b1d38,#6e2552,#a82e6b,#fe428e
+
+      - name: Push Contribution Snake SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: dist_snake
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
