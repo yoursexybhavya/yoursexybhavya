@@ -126,12 +126,7 @@ engineering_focus:
 
 ---
 
-<h2 align="center">🧊 Glassmorphism Telemetry &amp; Top Repositories</h2>
-
-<p align="center">
-  <img src="https://github-stats-xi-six.vercel.app/api/stats?user=yoursexybhavya&theme=glass" width="48%" alt="Glassmorphism GitHub Stats" />&nbsp;
-  <img src="https://github-stats-xi-six.vercel.app/api/top-repos?user=yoursexybhavya&theme=glass" width="48%" alt="Glassmorphism Top Repositories" />
-</p>
+<h2 align="center">📊 Solar Ember Telemetry</h2>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=yoursexybhavya&show_icons=true&hide_border=true&count_private=true&bg_color=14080a&title_color=f4641b&icon_color=f9a41a&text_color=fff7ed" height="175" alt="GitHub Stats" />&nbsp;
