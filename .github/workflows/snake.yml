@@ -1,4 +1,4 @@
-name: Synthwave Profile Generative Suite
+name: Solar Ember Profile Generative Suite
 
 on:
   schedule:
@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   generate:
-    name: Generate Pixel Cat Companion & Contribution Snake
+    name: Generate Pixel Cat Companion & Solar Ember Snake
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -33,18 +33,18 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           timezone-offset-minutes: "330"
           display-name: "Bhavya"
-          pet-name: "Pixel"
-          accent-color: "#fe428e"
+          pet-name: "Blaze"
+          accent-color: "#f4641b"
           contact-line: "github.com/yoursexybhavya"
           output-dir: "dist"
 
-      - name: Generate Contribution Snake (Platane/snk)
+      - name: Generate Solar Ember Contribution Snake (Platane/snk)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist_snake/github-contribution-grid-snake.svg
-            dist_snake/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#fe428e&color_dots=#161b22,#3b1d38,#6e2552,#a82e6b,#fe428e
+            dist_snake/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#f9a41a&color_dots=#180b0d,#4a1812,#8a2b19,#d24c29,#f4641b
 
       - name: Push Contribution Snake SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
