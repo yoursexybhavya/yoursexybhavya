@@ -90,7 +90,7 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yoursexybhavya&style=for-the-badge&color=F75C7E&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://hits.sh/github.com/yoursexybhavya.svg?style=for-the-badge&label=PROFILE%20VIEWS&color=f75c7e&labelColor=141321" alt="Profile Views" />
 </p>
 
 <p align="center">
